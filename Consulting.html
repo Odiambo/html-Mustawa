@@ -14,12 +14,14 @@ h1{
 <H1>Mustawa Short Forum</H1>
 
 <nav>
-    <style>
-     h3 {text-align: center;}
-     p {text-align: center;}
-     div {text-align: center;} 
-     
-    </style>
+  <style>
+   h3 {display: flex;
+      justify-content: center;
+       gap: 2rem;}
+   p {text-align: center;}
+   div {text-align: center;} 
+   
+  </style>
      <h3>
          <a href="./index.html">Mustawa</a>
          <a href="./about.html">About</a>
@@ -30,21 +32,30 @@ h1{
  <br>
 </br>
  <style>
-  h2 {text-align: left;}
-  p {text-align:left;}
+  h2 {text-align: center;}
+ 
   div {text-align: left;} 
      
  </style>
     <h2>Consulting</h2>
 <br>
 </br>
-<Section>
+<div>
   <style>
-    h3 {text-align: center;  }
-    p {text-align: center;}
+   @media (max-width:1200px) {}
+   .conainer {
+      display: inline-flex;
+    }
+    
+    h3 {text-align: center; 
+         }
+    p {text-align: center;
+        margin-left: 20px;}
     div {text-align: center;} 
     
    </style>
+
+   <div class="container"></div>
    <h3 class="title">Property Investing</h3>
    <P class="sub-title"><strong>Unlock the Opportunities of Real Estate Wealth</strong></p>
    <p class="wrapbox strict">Navigating the real estate market can be challenging.
@@ -65,14 +76,18 @@ h1{
 <p class="wrapbox strict">In the high-stakes world of business acquisitions, a good deal is where both parties walk away believing in the future. Mustawa's dedicated team excels in crafting acquisition strategies that are both aggressive and fair. Our negotiation experts understand the subtleties of the acquisition game, ensuring you get optimal value every time. From due diligence to closing the deal, let Mustawa be your guide in this complex journey.
 
 </p>
-</Section>
+</div>
 <br>
 </br>
+
 <style>
-  h4 {text-align: center;
-  font-size: 9px;
+  .footer {
+    text-align:  center;
+    font-size: 9px;
+    clear: both;
   }
+ 
 </style>
    <footer>
-<h4>Copyright Mustawa 2023</h4>
+  <h4 class="footer">Copyright Mustawa 2023</h4>
 </footer>
